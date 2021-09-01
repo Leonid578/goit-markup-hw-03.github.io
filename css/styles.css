@@ -162,10 +162,8 @@ color: var(--accent-color);
 .header-right{
 display: flex;
 margin-left: auto;  
-/* justify-content: space-around;
 align-content: center;
-align-items: center; */
-
+align-items: center;
 }
 
 .header-right li+li{
@@ -521,10 +519,6 @@ margin-bottom: 50px;
 .filter-text > li{
     margin-left: 0px;
     margin-right: 0px;
-}
-
-.filter-text > li:not(:last-child){
-    margin-right: 8px;
 }
 
 .bottom--address{
